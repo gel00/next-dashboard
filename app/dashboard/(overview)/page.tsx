@@ -14,6 +14,10 @@ import {
 export const metadata: Metadata = {
   title: 'Dashboard',
   description: 'View and manage your financial data, invoices, and customer information in real-time.',
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export default async function Page() {

@@ -1,8 +1,12 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Invoices | Acme Dashboard',
-  description: 'Create, view, and manage your invoices. Track payment status and maintain detailed records of all transactions.',
+  title: 'Invoices',
+  description: 'View and manage your invoice records.',
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Page() {
